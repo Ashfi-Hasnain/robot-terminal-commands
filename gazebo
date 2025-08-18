@@ -1,0 +1,35 @@
+cd ~
+source /opt/ros/humble/setup.bash
+colcon build --packages-select my_bot --event-handlers console_direct+
+source install/setup.bash
+
+xacro src/my_bot/description/robot.urdf.xacro use_ros2_control:=true sim_mode:=true > /tmp/robot.urdf
+echo "XACRO exit code: $?"
+check_urdf /tmp/robot.urdf | head -n 40
+
+ros2 launch my_bot rsp.launch.py use_sim_time:=true use_ros2_control:=false
+
+ros2 launch my_bot launch_simlaunch.py
+
+--DO THIS IN TERMINAL 2--
+
+cd ~
+source /opt/ros/humble/setup.bash
+source install/setup.bash
+
+ros2 node list
+ros2 topic list | sort | head -n 40
+ros2 param get /robot_state_publisher robot_description | head -n 20
+ros2 control list_controllers || echo "ros2_control not present"
+
+ros2 launch my_bot joystick.launch.py use_sim_time:=true
+
+--DO THIS IN TERMINAL 3--
+
+ros2 topic pub -r 5 /cmd_vel geometry_msgs/Twist "{linear: {x: 0.2}, angular: {z: 0.0}}"
+
+--DO THIS IN TERMINAL 2--
+
+test -f src/my_bot/config/gaz2_ros2_ctl_use_sim.yaml && echo "found gaz2_ros2_ctl_use_sim.yaml" || echo "missing gaz2_ros2_ctl_use_sim.yaml"
+test -f src/my_bot/config/gaz_ros2_ctl_use_sim.yaml && echo "found gaz_ros2_ctl_use_sim.yaml" || echo "missing gaz_ros2_ctl_use_sim.yaml"
+
