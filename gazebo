@@ -1,4 +1,4 @@
-cd ~
+cd ~/robot1_ws
 source /opt/ros/humble/setup.bash
 colcon build --packages-select my_bot --event-handlers console_direct+
 source install/setup.bash
