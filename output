@@ -1,5 +1,59 @@
+Hit:1 http://packages.ros.org/ros2/ubuntu jammy InRelease                
+Get:2 https://packages.microsoft.com/repos/vscode stable InRelease [3,594 B]                           
+Hit:3 https://packages.microsoft.com/repos/code stable InRelease                                       
+Get:4 http://mirror.ox.ac.uk/sites/archive.raspbian.org/archive/raspbian buster InRelease [15.0 kB]
+Get:5 https://packages.microsoft.com/repos/vscode stable/main amd64 Packages [27.9 kB]
+Err:4 http://mirror.ox.ac.uk/sites/archive.raspbian.org/archive/raspbian buster InRelease
+  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 9165938D90FDDD2E
 Reading package lists... Done
-Building dependency tree... Done
-Reading state information... Done
-E: Unable to locate package ros-humble-gazebo-ros-pkgs
-E: Unable to locate package ros-humble-gazebo-ros2-control
+W: Target Packages (main/binary-arm64/Packages) is configured multiple times in /etc/apt/sources.list.d/ros-latest.list:1 and /etc/apt/sources.list.d/ros2.list:1
+W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list.d/ros-latest.list:1 and /etc/apt/sources.list.d/ros2.list:1
+W: Target Translations (main/i18n/Translation-en_US) is configured multiple times in /etc/apt/sources.list.d/ros-latest.list:1 and /etc/apt/sources.list.d/ros2.list:1
+W: Target Translations (main/i18n/Translation-en) is configured multiple times in /etc/apt/sources.list.d/ros-latest.list:1 and /etc/apt/sources.list.d/ros2.list:1
+W: Target Translations (main/i18n/Translation-en_CA) is configured multiple times in /etc/apt/sources.list.d/ros-latest.list:1 and /etc/apt/sources.list.d/ros2.list:1
+W: Target DEP-11 (main/dep11/Components-arm64.yml) is configured multiple times in /etc/apt/sources.list.d/ros-latest.list:1 and /etc/apt/sources.list.d/ros2.list:1
+W: Target DEP-11 (main/dep11/Components-all.yml) is configured multiple times in /etc/apt/sources.list.d/ros-latest.list:1 and /etc/apt/sources.list.d/ros2.list:1
+W: Target DEP-11-icons-small (main/dep11/icons-48x48.tar) is configured multiple times in /etc/apt/sources.list.d/ros-latest.list:1 and /etc/apt/sources.list.d/ros2.list:1
+W: Target DEP-11-icons (main/dep11/icons-64x64.tar) is configured multiple times in /etc/apt/sources.list.d/ros-latest.list:1 and /etc/apt/sources.list.d/ros2.list:1
+W: Target DEP-11-icons-hidpi (main/dep11/icons-64x64@2.tar) is configured multiple times in /etc/apt/sources.list.d/ros-latest.list:1 and /etc/apt/sources.list.d/ros2.list:1
+W: Target CNF (main/cnf/Commands-arm64) is configured multiple times in /etc/apt/sources.list.d/ros-latest.list:1 and /etc/apt/sources.list.d/ros2.list:1
+W: Target CNF (main/cnf/Commands-all) is configured multiple times in /etc/apt/sources.list.d/ros-latest.list:1 and /etc/apt/sources.list.d/ros2.list:1
+W: https://packages.microsoft.com/repos/vscode/dists/stable/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details.
+W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:1 and /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:3
+W: Target Translations (main/i18n/Translation-en_US) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:1 and /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:3
+W: Target Translations (main/i18n/Translation-en) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:1 and /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:3
+W: Target Translations (main/i18n/Translation-en_CA) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:1 and /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:3
+W: Target DEP-11 (main/dep11/Components-arm64.yml) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:1 and /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:3
+W: Target DEP-11 (main/dep11/Components-all.yml) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:1 and /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:3
+W: Target DEP-11-icons-small (main/dep11/icons-48x48.tar) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:1 and /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:3
+W: Target DEP-11-icons (main/dep11/icons-64x64.tar) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:1 and /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:3
+W: Target DEP-11-icons-hidpi (main/dep11/icons-64x64@2.tar) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:1 and /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:3
+W: Target CNF (main/cnf/Commands-arm64) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:1 and /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:3
+W: Target CNF (main/cnf/Commands-all) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:1 and /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:3
+W: GPG error: http://mirror.ox.ac.uk/sites/archive.raspbian.org/archive/raspbian buster InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 9165938D90FDDD2E
+E: The repository 'http://mirror.ox.ac.uk/sites/archive.raspbian.org/archive/raspbian buster InRelease' is not signed.
+N: Updating from such a repository can't be done securely, and is therefore disabled by default.
+N: See apt-secure(8) manpage for repository creation and user configuration details.
+W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:1 and /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:3
+W: Target Translations (main/i18n/Translation-en_US) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:1 and /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:3
+W: Target Translations (main/i18n/Translation-en) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:1 and /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:3
+W: Target Translations (main/i18n/Translation-en_CA) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:1 and /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:3
+W: Target DEP-11 (main/dep11/Components-arm64.yml) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:1 and /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:3
+W: Target DEP-11 (main/dep11/Components-all.yml) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:1 and /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:3
+W: Target DEP-11-icons-small (main/dep11/icons-48x48.tar) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:1 and /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:3
+W: Target DEP-11-icons (main/dep11/icons-64x64.tar) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:1 and /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:3
+W: Target DEP-11-icons-hidpi (main/dep11/icons-64x64@2.tar) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:1 and /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:3
+W: Target CNF (main/cnf/Commands-arm64) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:1 and /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:3
+W: Target CNF (main/cnf/Commands-all) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:1 and /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:3
+W: Target Packages (main/binary-arm64/Packages) is configured multiple times in /etc/apt/sources.list.d/ros-latest.list:1 and /etc/apt/sources.list.d/ros2.list:1
+W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list.d/ros-latest.list:1 and /etc/apt/sources.list.d/ros2.list:1
+W: Target Translations (main/i18n/Translation-en_US) is configured multiple times in /etc/apt/sources.list.d/ros-latest.list:1 and /etc/apt/sources.list.d/ros2.list:1
+W: Target Translations (main/i18n/Translation-en) is configured multiple times in /etc/apt/sources.list.d/ros-latest.list:1 and /etc/apt/sources.list.d/ros2.list:1
+W: Target Translations (main/i18n/Translation-en_CA) is configured multiple times in /etc/apt/sources.list.d/ros-latest.list:1 and /etc/apt/sources.list.d/ros2.list:1
+W: Target DEP-11 (main/dep11/Components-arm64.yml) is configured multiple times in /etc/apt/sources.list.d/ros-latest.list:1 and /etc/apt/sources.list.d/ros2.list:1
+W: Target DEP-11 (main/dep11/Components-all.yml) is configured multiple times in /etc/apt/sources.list.d/ros-latest.list:1 and /etc/apt/sources.list.d/ros2.list:1
+W: Target DEP-11-icons-small (main/dep11/icons-48x48.tar) is configured multiple times in /etc/apt/sources.list.d/ros-latest.list:1 and /etc/apt/sources.list.d/ros2.list:1
+W: Target DEP-11-icons (main/dep11/icons-64x64.tar) is configured multiple times in /etc/apt/sources.list.d/ros-latest.list:1 and /etc/apt/sources.list.d/ros2.list:1
+W: Target DEP-11-icons-hidpi (main/dep11/icons-64x64@2.tar) is configured multiple times in /etc/apt/sources.list.d/ros-latest.list:1 and /etc/apt/sources.list.d/ros2.list:1
+W: Target CNF (main/cnf/Commands-arm64) is configured multiple times in /etc/apt/sources.list.d/ros-latest.list:1 and /etc/apt/sources.list.d/ros2.list:1
+W: Target CNF (main/cnf/Commands-all) is configured multiple times in /etc/apt/sources.list.d/ros-latest.list:1 and /etc/apt/sources.list.d/ros2.list:1
