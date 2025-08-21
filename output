@@ -1,1 +1,1 @@
-archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list  vscode.sources
+deb http://mirror.ox.ac.uk/sites/archive.raspbian.org/archive/raspbian/ buster main contrib non-free rpi
