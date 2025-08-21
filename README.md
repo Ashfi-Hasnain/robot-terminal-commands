@@ -1,4 +1,5 @@
 # robot-terminal-commands
+Open in edit mode to properly read
 
 ## gazebo
 colcon build
