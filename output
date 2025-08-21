@@ -1,1 +1,5 @@
-deb http://mirror.ox.ac.uk/sites/archive.raspbian.org/archive/raspbian/ buster main contrib non-free rpi
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+E: Unable to locate package ros-humble-gazebo-ros-pkgs
+E: Unable to locate package ros-humble-gazebo-ros2-control
