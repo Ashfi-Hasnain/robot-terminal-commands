@@ -1,0 +1,5 @@
+[INFO] [launch]: All log files can be found below /home/muditha/.ros/log/2025-08-21-13-54-36-084757-muditha-desktop-7497
+[INFO] [launch]: Default logging verbosity is set to INFO
+[ERROR] [launch]: Caught exception in launch (see debug for traceback): Caught multiple exceptions when trying to load file of format [py]:
+ - PackageNotFoundError: "package 'gazebo_ros' not found, searching: ['/home/muditha/robot1_ws/install/serial_motor_demo', '/home/muditha/robot1_ws/install/serial_motor_demo_msgs', '/home/muditha/robot1_ws/install/rplidar_ros', '/home/muditha/robot1_ws/install/my_package', '/home/muditha/robot1_ws/install/my_bot', '/home/muditha/robot1_ws/install/ldlidar_stl_ros2', '/home/muditha/robot1_ws/install/articubot_one_ui', '/opt/ros/humble']"
+ - InvalidFrontendLaunchFileError: The launch file may have a syntax error, or its format is unknown
