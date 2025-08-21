@@ -1,5 +1,41 @@
-[INFO] [launch]: All log files can be found below /home/muditha/.ros/log/2025-08-21-13-54-36-084757-muditha-desktop-7497
-[INFO] [launch]: Default logging verbosity is set to INFO
-[ERROR] [launch]: Caught exception in launch (see debug for traceback): Caught multiple exceptions when trying to load file of format [py]:
- - PackageNotFoundError: "package 'gazebo_ros' not found, searching: ['/home/muditha/robot1_ws/install/serial_motor_demo', '/home/muditha/robot1_ws/install/serial_motor_demo_msgs', '/home/muditha/robot1_ws/install/rplidar_ros', '/home/muditha/robot1_ws/install/my_package', '/home/muditha/robot1_ws/install/my_bot', '/home/muditha/robot1_ws/install/ldlidar_stl_ros2', '/home/muditha/robot1_ws/install/articubot_one_ui', '/opt/ros/humble']"
- - InvalidFrontendLaunchFileError: The launch file may have a syntax error, or its format is unknown
+Hit:1 https://packages.microsoft.com/repos/vscode stable InRelease             
+Get:2 http://mirror.ox.ac.uk/sites/archive.raspbian.org/archive/raspbian buster InRelease [15.0 kB]
+Hit:3 https://packages.microsoft.com/repos/code stable InRelease
+Ign:4 http://packages.ros.org/ros/ubuntu jammy InRelease
+Hit:5 http://packages.ros.org/ros2/ubuntu jammy InRelease 
+Err:6 http://packages.ros.org/ros/ubuntu jammy Release    
+  404  Not Found [IP: 140.211.166.134 80]
+Err:2 http://mirror.ox.ac.uk/sites/archive.raspbian.org/archive/raspbian buster InRelease
+  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 9165938D90FDDD2E
+Reading package lists... Done
+E: The repository 'http://packages.ros.org/ros/ubuntu jammy Release' does not have a Release file.
+N: Updating from such a repository can't be done securely, and is therefore disabled by default.
+N: See apt-secure(8) manpage for repository creation and user configuration details.
+W: https://packages.microsoft.com/repos/vscode/dists/stable/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details.
+W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:1 and /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:3
+W: Target Translations (main/i18n/Translation-en_US) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:1 and /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:3
+W: Target Translations (main/i18n/Translation-en) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:1 and /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:3
+W: Target Translations (main/i18n/Translation-en_CA) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:1 and /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:3
+W: Target DEP-11 (main/dep11/Components-arm64.yml) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:1 and /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:3
+W: Target DEP-11 (main/dep11/Components-all.yml) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:1 and /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:3
+W: Target DEP-11-icons-small (main/dep11/icons-48x48.tar) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:1 and /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:3
+W: Target DEP-11-icons (main/dep11/icons-64x64.tar) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:1 and /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:3
+W: Target DEP-11-icons-hidpi (main/dep11/icons-64x64@2.tar) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:1 and /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:3
+W: Target CNF (main/cnf/Commands-arm64) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:1 and /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:3
+W: Target CNF (main/cnf/Commands-all) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:1 and /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:3
+W: GPG error: http://mirror.ox.ac.uk/sites/archive.raspbian.org/archive/raspbian buster InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 9165938D90FDDD2E
+E: The repository 'http://mirror.ox.ac.uk/sites/archive.raspbian.org/archive/raspbian buster InRelease' is not signed.
+N: Updating from such a repository can't be done securely, and is therefore disabled by default.
+N: See apt-secure(8) manpage for repository creation and user configuration details.
+W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:1 and /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:3
+W: Target Translations (main/i18n/Translation-en_US) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:1 and /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:3
+W: Target Translations (main/i18n/Translation-en) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:1 and /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:3
+W: Target Translations (main/i18n/Translation-en_CA) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:1 and /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:3
+W: Target DEP-11 (main/dep11/Components-arm64.yml) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:1 and /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:3
+W: Target DEP-11 (main/dep11/Components-all.yml) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:1 and /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:3
+W: Target DEP-11-icons-small (main/dep11/icons-48x48.tar) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:1 and /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:3
+W: Target DEP-11-icons (main/dep11/icons-64x64.tar) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:1 and /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:3
+W: Target DEP-11-icons-hidpi (main/dep11/icons-64x64@2.tar) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:1 and /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:3
+W: Target CNF (main/cnf/Commands-arm64) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:1 and /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:3
+W: Target CNF (main/cnf/Commands-all) is configured multiple times in /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:1 and /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-jammy.list:3
+
